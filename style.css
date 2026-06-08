@@ -197,7 +197,21 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .photo-placeholder span { font-size: 2.5rem; margin-bottom: 6px; }
 .photo-placeholder p  { font-size: .8rem; font-family: 'Amiri', serif; }
 
-
+.audio-player {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.audio-player audio {
+    width: 420px;
+    max-width: 100%;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(200,168,75,.25);
+    padding: 8px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,.15);
+}
 
 /* Scroll button */
 .scroll-down {
